@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int solveMeFirst(int a, int b) {
+    return a + b;   // simply return the sum
+}
+
+int main() {
+    int num1, num2;
+    cin >> num1 >> num2;              // take two integers as input
+    int sum = solveMeFirst(num1, num2);
+    cout << sum;                      // print the sum
+    return 0;
+}
