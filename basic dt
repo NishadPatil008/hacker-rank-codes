@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    string a;
+    long n1,n2;
+    double n3,n4;
+    cin>>n1>>n2>>a>>n3>>n4;
+    cout<<n1<<endl<<n2<<endl<<a<<endl<<n3<<endl<<n4;
+    return 0;
+}
